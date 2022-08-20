@@ -41,7 +41,7 @@ const Hero = () => {
                 src={image}
                 key={index}
                 alt="plant"
-                className={"images" + index}
+                className={"images" + index }
                 style={{ width: 300, height: 400 }}
               />
             );

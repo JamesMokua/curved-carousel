@@ -48,7 +48,6 @@ section:after {
 img[class^="images0"] {
   animation: bannermove 20s linear 2s infinite;
 }
-
 img[class^="images1"] {
   animation: bannermove 20s linear 2s infinite;
 }
@@ -72,4 +71,24 @@ img[class^="images3"] {
   100% {
     left: 180%;
   }
+}
+.wrapper:hover img[class^="images"] {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+img[class^="images0"]:hover {
+  transform: scale(1.5);
+  height: 100% !important;
+}
+img[class^="images1"]:hover {
+  transform: scale(1.5); 
+  height: 100% !important;
+}
+img[class^="images2"]:hover {
+  transform: scale(1.5);
+  height: 100% !important;
+}
+img[class^="images3"]:hover {
+  transform: scale(1.5);
+  height: 100% !important;
 }
