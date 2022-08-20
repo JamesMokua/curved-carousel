@@ -61,15 +61,11 @@ img[class^="images3"] {
 }
 @keyframes bannermove {
   0% {
-    margin-left: 0px;
-  }
-
-  50% {
-    margin-left: -180%;
+    margin-left: 0%;
   }
 
   100% {
-    left: 180%;
+    margin-left: -380%;
   }
 }
 .wrapper:hover img[class^="images"] {
@@ -81,7 +77,7 @@ img[class^="images0"]:hover {
   height: 100% !important;
 }
 img[class^="images1"]:hover {
-  transform: scale(1.5); 
+  transform: scale(1.5);
   height: 100% !important;
 }
 img[class^="images2"]:hover {
